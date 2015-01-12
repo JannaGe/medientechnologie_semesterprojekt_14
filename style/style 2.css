@@ -125,11 +125,15 @@ p {
 	margin-top: 10px;
 }
 
-.padding10BOTTOM {
+.padding10BOTTOMsolid {
 	padding-bottom: 10px;
 	border-width: 0px 0px 2px 0px;
 	border-color: rgb(150,40,70);
 	border-style: solid;
+}
+
+.padding10BOTTOM {
+	padding-bottom: 10px;
 }
 
 .magrin30TOP {
