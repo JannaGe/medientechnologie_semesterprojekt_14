@@ -1,0 +1,233 @@
+/*Fragen???!!!
+-wegen schriften einbinden
+*/
+
+
+
+/* ---------- CSS DOC ---------- */
+	
+	@charset "UTF-8";
+
+/* ---------- Resets ---------- */
+
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li, a, img{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+table {
+border-spacing:0;
+border-collapse:collapse;
+margin-bottom: 
+}
+
+caption,th,td {
+text-align:left;
+text-align:start;
+vertical-align:top;
+}
+
+
+a {
+	color: rgb(0,0,0);
+}
+
+/* {
+	box-sizling: border-box;
+	margin: 0px;
+	padding: 0px;
+}*/
+
+
+
+/* ---------- TYPO ---------- */
+
+h1 { 	/*Seitenüberschrift*/
+	font-family: "Din Pro";
+	text-align: left;
+	font-size: 20px;
+	margin: 0px 0px 0px 0px;
+	color: rgb(255,255,255);
+}
+
+h2 {	/*Footer - light - rot*/
+	font-family: "Din Pro";
+	text-align: left;
+	float: left;
+	font-size: 12px;
+	color: rgb(150,40,70);
+}
+
+h3 {	/*kleines zeichen bei verheiratet*/
+	font-size: 14pt;
+	font-weight: lighter;
+	text-align: left;
+	float: left;
+	margin: 2px 3px 0px 0px;
+	color: rgb(150,40,70);
+}
+
+p {
+	font-family: "Din Pro";
+	text-align: left;
+	font-size: 15px;
+	color: rgb(0,0,0);
+}
+
+
+
+.lighter {
+	font-weight: lighter;
+	font-family: "Din Pro";
+
+}
+
+.medium {
+	font-weight: medium;
+	font-family: "Din Pro";
+}
+
+.semibold {
+	font-weight: 500;
+	font-family: "Din Pro";
+}
+
+
+
+.dunkelrot {	/* Bold - rot */
+	color: rgb(150,40,70);
+}
+
+.grau {	/* Medium/Light - grau */
+	color: rgb(128,128,128);
+}
+
+.hellrot {	/* Bold - hellrot */
+	color: rgb(203,147,163);
+}
+
+
+
+.paddingRight56 {
+	padding: 0px 56px 0px 0px;
+}
+
+.paddingRight3 {
+	padding: 0px 3px 0px 0px;
+}
+
+.magrin10TOP {
+	margin-top: 10px;
+}
+
+.padding10BOTTOM {
+	padding-bottom: 10px;
+	border-width: 0px 0px 2px 0px;
+	border-color: rgb(150,40,70);
+	border-style: solid;
+}
+
+.magrin30TOP {
+	margin-top: 30px;
+}
+
+
+
+/* ---------- Layout ---------- */
+
+html, body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	width: 1200px;
+	margin: 0 auto;
+	height: auto;
+	background-color: rgb(256,256,256);
+}
+
+table {
+	text-align: left;
+	font-size: 15px;
+	color: rgb(0,0,0);
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+footer {
+	width: 625px;
+	height: 16px;
+	margin: 55px 0px 0px 100px;
+	padding: 20px 0px 0px 375px;
+	border-width: 2px 0px 0px 0px;
+	border-color: rgb(150,40,70);
+	border-style: solid;
+	float: left;
+	/*position: absolute;*/
+	bottom: 0;
+}
+
+/*.wrapper {
+    min-height: 100%;
+    position: relative;
+}
+ 
+.container {
+    background: rgb(256,256,256);
+    padding-bottom: 25px; /* Höhe des Footers */
+
+
+
+
+.kopfbalken {
+	float: left;
+	width: 1100px;
+	height: 20px;
+	margin-top: 25px;
+	padding: 5px 0px 15px 100px;
+	background-color: rgb(150,40,70);
+}
+
+.uebergruppe1 {
+	float: left;
+	width: 240px;
+	height: 540px;
+	margin-top: 55px;
+	margin-left: 100px;
+	padding: 0px 0px 0px 0px;
+	background-color: rgb(256,256,256);
+}
+
+.uebergruppe2 {
+	float: left;
+	width: 625px;
+	height: 540px;
+	margin-top: 55px;
+	margin-left: 135px;
+	/*margin-bottom: 55px;*/
+	background-color: rgb(245,245,245);
+}
+
+
+
+/* ---------- Actionen ---------- */
+
+
+
+
+a:hover, a:active {
+	color:rgb(150,40,70);
+	font-weight: bold;
+}
+
+.ausgewaelt {
+	color:rgb(150,40,70);
+	font-weight: bold;
+}
