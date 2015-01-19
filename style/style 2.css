@@ -120,7 +120,7 @@ li {
 /* ---------- Abstände ---------- */
 
 .paddingRight56 {
-	padding: 0px 56px 0px 0px;
+	padding: 0px 55px 0px 0px;
 }
 
 .paddingRight3 {
@@ -170,6 +170,9 @@ li {
 	padding-left: 30px;
 }
 
+.paddingRIGHT4 {
+	padding-right: 4px;
+}
 
 /* ---------- Layout ---------- */
 
@@ -245,7 +248,6 @@ footer {
 	margin-top: 55px;
 	margin-left: 135px;
 	/*margin-bottom: 55px;*/
-	background-color: rgb(245,245,245);
 }
 
 .aufklappen {
