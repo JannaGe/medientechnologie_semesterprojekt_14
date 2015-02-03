@@ -2,30 +2,35 @@
 <html lang="de">
 <head>
 	<meta charset="UTF-8">
-	<title>Digitales Projekt - Typografie - Sami Khedira</title>
+	<title>Digitales Projekt - Typografie - Manuel Neuer</title>
 	<link rel="stylesheet" href="../style/style 2.css" type="text/css">
 	
-	<script type="text/javascript" src="scripts.js"></script>
-
+	<script type="text/javascript" src="../style/scripts.js"></script>
 </head>
 	
+
 <header>
 	<article class="kopfbalken">
-		<h1 class="lighter">Die Spielerfrau hinter dem Fußballer</h1>
+		<h1 class="lighter">Die </h1> <h1 class="semibold margin"> Spielerfrau </h1> <h1 class="lighter"> hinter dem Fußballer</h1>
 	</article>
 </header>
 
+
 <body>
 	<article class="uebergruppe1">
-		<div style="height:540px; overflow:auto;"> 
+		<div style="height:540px; overflow: auto;"> 
 			<p class="semibold padding10BOTTOMsolid">
 				<a href="index.html" title="Bayern München">Bayern München</a>
 			</p>
 			<p class="lighter magrin10TOP">
 				<a href="01.Schweinsteiger.html" title="Bastian Schweinsteiger">Bastian Schweinsteiger</a>
 			</p>
-			<p class="lighter"><a>Jérôme Boateng</a></p>
-			<p class="lighter"><a class="semibold dunkelrot" title="Manuel Neuer">Manuel Neuer</a></p>
+			<p class="lighter">
+				<a href="06.Boateng.html" title="Jérôme Boateng">Jérôme Boateng</a>
+			</p>
+			<p class="lighter">
+				<a class="semibold dunkelrot" title="Manuel Neuer">Manuel Neuer</a>
+			</p>
 
 			<table>
 				<tr>
@@ -44,11 +49,18 @@
 					<td class="medium grau padding30RIGHTsolid">– Größe:</td>
 					<td class="lighter grau paddingLEFT30">193 cm</td>
 				</tr>
+				<tr>
+					<td class="medium hellrot">Ist offiziell single</td>
+				</tr>
 			</table>
 
 			<p class="lighter"><a>Philipp Lahm</a></p>
-			<p class="lighter"><a href="05.Mueller.html" title="Thomas Müller">Thomas Müller</a></p>
-			<p class="lighter"><a>Mario Götze</a></p>
+			<p class="lighter">
+				<a href="05.Mueller.html" title="Thomas Müller">Thomas Müller</a>
+			</p>
+			<p class="lighter">
+				<a href="08.Götze.html" title="Mario Götze">Mario Götze</a>
+			</p>
 
 
 			<p class="semibold magrin30TOP padding10BOTTOMsolid">
@@ -56,7 +68,9 @@
 			</p>
 			<p class="lighter magrin10TOP"><a>Kevin Großkreutz</a></p>
 			<p class="lighter"><a>Mats Hummels</a></p>
-			<p class="lighter"><a>Roman Weidenfeller</a></p>
+			<p class="lighter">
+				<a href="07.Weidenfeller.html" title="Roman Weidenfeller">Roman Weidenfeller</a>
+			</p>
 
 
 			<p class="semibold magrin30TOP padding10BOTTOMsolid">
@@ -115,27 +129,29 @@
 
 
 	<article class="uebergruppe2">
-		<div style="height:540px; overflow:auto;">
+		<div style="height:540px; overflow: auto;">
 
-			<a href="javascript:toggle('test')" class="semibold dunkelrot" title="Katrin Gilch">Katrin Gilch:</a>
+			<img src="../img/KreisZu.png" class="icons" name="indicator" alt="Anzeigen/Verstecken">
+			<a class="semibold dunkelrot" href="#" onclick="javascript:toggledisplay('hiddendiv','indicator'); return false" title="Katrin Gilch">Katrin Gilch</a>
 			<p class="turnright semibold dunkelrot">/</p>
-			<br />
+
 			<table>
 				<tr>
-				    <td class="medium grau padding30RIGHTsolid">– Beruf:</td>
+				    <td class="medium grau padding30RIGHTsolid paddingLEFT20">– Beruf:</td>
 			    	<td class="lighter grau paddingLEFT30">Friseur Meisterin (am Bayrischen Hof in München)</td>
 				</tr>
 			  	<tr>
-			    	<td class="medium grau padding30RIGHTsolid">– Geburtstag:</td>
+			    	<td class="medium grau padding30RIGHTsolid paddingLEFT20">– Geburtstag:</td>
 					<td class="lighter grau paddingLEFT30">1981/1982</td>
 				</tr>
 				<tr>
-					<td class="medium grau padding30RIGHTsolid">– Nationalität:</td>
+					<td class="medium grau padding30RIGHTsolid paddingLEFT20">– Nationalität:</td>
 					<td class="lighter grau paddingLEFT30">deutsch</td>
 				</tr>
 			</table>
 
-				<table id="test" class="aufklappen lighter" style="display: none">
+			<div id="hiddendiv" class="aufklappen lighter paddingLEFT20" style="display: none;">
+				<table>
 					<tr>
 						<td class="paddingRIGHT4">–</td>
 						<td>lernten sich im Sommer 2008 im Flugzeug nach Mykonos kennen (Urlaubsflirt)</td>
@@ -148,12 +164,13 @@
 						<td class="paddingRIGHT4">–</td>
 						<td>haben sich im Oktober 2014 getrennt</td>
 					</tr>
-					
 				</table>
+			</div>
+
 		</div>
 	</article>
-	
 </body>
+
 
 <footer class="wrapper, container">
 	<h2 class="lighter paddingRight3">∞</h2>
